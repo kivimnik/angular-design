@@ -1,0 +1,5 @@
+This project is mostly graphical design, but also has pseudo Login-function.
+
+Navigation component is a navigation bar in the top side of the screen. The navigation bar sticks in place even if the user scrolls down the page.
+
+Login component is a box that contains two inputs for username and password and a button that says "Login". When wrong combination is entered it displays an error message. Working combinations can be found in the user-list file. For example, username: Admin, password: admin. If user logs in, a login option is hidden and option to logout is offered.
