@@ -1,0 +1,41 @@
+div {
+    display: block;
+    padding-top: 0.5em;
+}
+.divider{
+    width:1em;
+    height:auto;
+    display:inline-block;
+}
+label{
+    font-size: 1.1em;
+    display:block;
+    padding-bottom:0.5em;
+    color: rgb(156, 4, 4);
+}
+input {
+    display: block;
+    padding: 0.5em;
+    border-radius: 0.4em;
+    box-shadow: 5px, 10px;
+}
+button { 
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(255, 244, 244), rgb(255, 218, 218));
+    text-decoration: none;
+    border: none;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 0.2em;
+}
+button:hover{
+    background-image: linear-gradient(rgb(255, 242, 242), rgb(216, 191, 191));
+    cursor: pointer;
+}
+h2{
+    color: #700;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}

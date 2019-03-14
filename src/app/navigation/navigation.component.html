@@ -1,0 +1,11 @@
+<div style="position:absolute">
+<ul> <!-- varsinainen yläpalkki luodaan ul tyyleissa -->
+    <li><a href="index.html">Home</a></li>
+    <li><a href="article.html">Article</a></li>
+    <li><a href="about.html">About</a></li>
+</ul>
+<button class = "hideButton" (click)="onClickHide()" *ngIf="!loggedIn">Login</button><button class = "hideButton" (click)="onClickHide()" *ngIf="loggedIn">{{username}}</button>
+<div class = "divider"></div>
+<div class="sidebar" [hidden]="hideMenu" *ngIf="!registerB"><p *ngIf="loggedIn">Logged in as {{username}}</p><app-login *ngIf="!loggedIn"></app-login>
+<button class = "logoutButton" (click)="logOut()" *ngIf="loggedIn">Logout</button></div>
+</div>
